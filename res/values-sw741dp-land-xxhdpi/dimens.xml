@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_mode_select_view_red_dot_left_margin">13.699982dip</dimen>
+    <dimen name="common_mode_select_view_red_dot_right_margin">8.633972dip</dimen>
+    <dimen name="common_mode_select_vivw_ver_bottom_margin">57.75dip</dimen>
+    <dimen name="manually_indicator_background_margin_left_right">14.549988dip</dimen>
+    <dimen name="mishot_topalert_main_margintop">10.909973dip</dimen>
+    <dimen name="pad_aiwatermark_fragment_land_bottom_margin">30.0dip</dimen>
+    <dimen name="pad_land_aiwatermark_image_bottom_margin">56.72dip</dimen>
+    <dimen name="zoom_ratio_dot_text_width">32.75dip</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_action_top_margin">0.0dip</dimen>
+    <dimen name="pad_aiwatermark_fragment_land_bottom_margin">0.0dip</dimen>
+    <dimen name="pad_beauty_layout_left_margin">110.0dip</dimen>
+    <dimen name="pad_land_aiwatermark_image_bottom_margin">0.0dip</dimen>
+    <dimen name="pad_menu_tab_bottom_margin">20.0dip</dimen>
+    <dimen name="pad_menu_tab_right_margin">1160.0dip</dimen>
+</resources>

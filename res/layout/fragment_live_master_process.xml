@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/live_preview_bottom_action" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/live_preview_bottom_parent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.android.camera.ui.CameraSnapView android:layout_gravity="center" android:id="@id/live_preview_snap" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/bottom_snap_width" android:layout_height="@dimen/bottom_snap_width" android:contentDescription="@string/accessibility_shutter_button" />
+        </FrameLayout>
+        <TextView android:textSize="@dimen/live_remind_tip_size" android:textColor="@color/cta_user_tips_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/remind_tv" android:background="@drawable/toast_frame" android:visibility="gone" android:layout_width="@dimen/live_remind_tv_width" android:layout_height="@dimen/live_music_tip_top" android:layout_marginTop="@dimen/live_remind_tv_top" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/music_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/music_cut_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

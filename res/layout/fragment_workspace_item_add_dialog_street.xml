@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/alertTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.269989dip" android:textDirection="locale" android:layout_marginStart="43.629974dip" android:layout_marginEnd="43.629974dip" style="?android:textAppearanceMedium" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/miuix_appcompat_dialog_button_panel_horizontal_margin">
+        <EditText android:id="@id/dialog_input_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/manual_picture_style_desc_custom_add_hint" android:selectAllOnFocus="true" android:inputType="textNoSuggestions" android:imeOptions="actionDone" android:textAlignment="viewStart" android:paddingStart="@dimen/vp_workspace_item_edit_text_padding_start" android:paddingEnd="@dimen/watermark_count_view_width" />
+        <TextView android:textSize="@dimen/watermark_summer_text_size" android:textColor="@color/watermark_summer_text_color" android:gravity="center" android:layout_gravity="end|center" android:id="@id/count_tip" android:layout_width="@dimen/watermark_count_view_width" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <miuix.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/street_dialog_recyclerview" android:background="@drawable/style_item_add_parameters_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.899994dip" android:layout_marginStart="@dimen/miuix_appcompat_dialog_button_panel_horizontal_margin" android:layout_marginEnd="@dimen/miuix_appcompat_dialog_button_panel_horizontal_margin" android:nestedScrollingEnabled="false" />
+</LinearLayout>

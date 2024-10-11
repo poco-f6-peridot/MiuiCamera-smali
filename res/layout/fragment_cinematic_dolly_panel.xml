@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cinematic_dolly_panel_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/cinematic_dolly_operation_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/cinematic_dolly_operation_panel" android:paddingLeft="50.0dip" android:paddingTop="10.0dip" android:paddingRight="50.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/cinematic_dolly_op_panel_height" android:layout_marginBottom="3.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/operate_scope" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/scope_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/accessibility_cinematic_dolly_zoom_scope" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/scope_value" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="1X-3X" android:layout_weight="1.0" />
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/cinematic_dolly_panel_divider" />
+            <LinearLayout android:orientation="vertical" android:id="@id/operate_speed" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/speed_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/accessibility_cinematic_dolly_zoom_speed" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/speed_value" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="标准" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/scope_adjust_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/scope_adjust_adverse_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cinematic_dolly_zoom_adverse_button_left_margin" android:src="@drawable/ic_vector_cinematic_dolly_scope_adverse" android:scaleType="fitCenter" />
+            <com.android.camera.ui.HorizontalScopeZoomView android:id="@id/scope_adjust_view" android:layout_width="fill_parent" android:layout_height="@dimen/cinematic_dolly_op_panel_height" android:layout_marginLeft="@dimen/cinematic_dolly_zoom_adjust_left_margin" android:layout_marginRight="@dimen/cinematic_dolly_zoom_adjust_right_margin" />
+        </FrameLayout>
+        <miuix.recyclerview.widget.RecyclerView android:gravity="center" android:layout_gravity="center" android:id="@id/speed_adjust_view" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/cinematic_dolly_zoom_speed_rv_bottom_margin" android:layout_marginBottom="@dimen/cinematic_dolly_zoom_speed_rv_bottom_margin" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/cinematic_dolly_panel_title_rv_bottom_margin">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/cinematic_dolly_rv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/cinematic_dolly_panel_title_height">
+        <TextView android:textSize="@dimen/mode_select_item_text_size" android:textColor="@color/withe_cv" android:gravity="center" android:id="@id/cinematic_dolly_panel_title_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cinematic_panel_title" android:importantForAccessibility="no" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/makeup_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginHorizontal="@dimen/miuix_appcompat_dialog_button_panel_horizontal_margin" android:forceDarkAllowed="false">
+        <FrameLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/makeup_item_detail_title_bg" android:layout_width="fill_parent" android:layout_height="@dimen/style_workspace_item_detail_title_height">
+            <TextView android:textSize="@dimen/style_workspace_item_detail_title_text_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/dialog_input_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/vp_workspace_item_edit_text_padding_start" android:paddingEnd="@dimen/watermark_count_view_width" />
+            <ImageView android:gravity="center" android:layout_gravity="end|center" android:id="@id/detail_close" android:layout_width="@dimen/style_workspace_item_detail_icon_size" android:layout_height="fill_parent" android:src="@drawable/ic_vector_close_mimoji_cv" android:layout_marginEnd="@dimen/vp_workspace_item_edit_text_padding_start" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_type_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.android.camera.ui.ColorImageView android:id="@id/style_item_icon_type" android:layout_width="@dimen/style_workspace_item_detail_icon_size" android:layout_height="@dimen/style_workspace_item_detail_icon_size" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_type" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:id="@id/style_item_meter_divider" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_meter_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.android.camera.ui.ColorImageView android:id="@id/style_item_icon_meter" android:layout_width="@dimen/style_workspace_item_detail_icon_size" android:layout_height="@dimen/style_workspace_item_detail_icon_size" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_meter" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_aperture_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_aperture" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_et_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_et" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_iso_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_iso" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_ev_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_ev" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_lens_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_lens" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_zoom_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_zoom" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_wb_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_wb" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_af_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_af" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0dip">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_tone_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_manual_picturestyle_tone_mini" android:scaleType="center" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_tone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_color_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_manual_picturestyle_color_mini" android:scaleType="center" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_color" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:id="@id/style_item_vibrance_divider" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_vibrance_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_manual_picturestyle_vibrance_mini" android:scaleType="center" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_vibrance" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <View android:layout_gravity="center_vertical" android:background="@color/white_alpha_10" android:layout_width="1.0dip" android:layout_height="10.0dip" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/style_item_texture_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_manual_picturestyle_texture_mini" android:scaleType="center" />
+                    <TextView android:textSize="@dimen/style_workspace_item_text_mini_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/style_item_texture" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="-20" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

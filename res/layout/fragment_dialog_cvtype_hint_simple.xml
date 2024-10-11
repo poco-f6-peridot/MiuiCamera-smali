@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="start" android:orientation="vertical" android:id="@id/cvtype_hint_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.android.camera.ui.ScrollTextview android:textSize="@dimen/simple_cvtype_hint_title_size" android:textColor="@color/cvtype_hint_title_color" android:ellipsize="marquee" android:gravity="center" android:id="@id/cvtype_hint_title_cv" android:layout_width="@dimen/simple_cvtype_hint_container_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/simple_cvtype_hint_title_margin_bottom" android:maxWidth="@dimen/cvtype_textview_maxwidth" android:text="@string/cvtype_hint_title" android:singleLine="true" android:layout_above="@id/cvtype_viewpager_layout_cv" />
+        <FrameLayout android:id="@id/cvtype_viewpager_layout_cv" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/simple_cvtype_hint_viewpager_height" android:layout_marginBottom="@dimen/simple_cvtype_hint_viewpager_margin_bottom" android:layout_above="@id/cvtype_btn_select_cv" android:layout_centerHorizontal="true">
+            <com.android.camera.ui.NestedSpringBackLayout android:layout_gravity="start" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" app:scrollOrientation="horizontal" app:scrollableView="@id/cvtype_viewpager_cv">
+                <androidx.viewpager.widget.ViewPager android:id="@id/cvtype_viewpager_cv" android:clipChildren="false" android:layout_width="@dimen/simple_cvtype_hint_viewpager_width" android:layout_height="fill_parent" />
+            </com.android.camera.ui.NestedSpringBackLayout>
+        </FrameLayout>
+        <com.android.camera.ui.ScrollTextview android:ellipsize="marquee" android:id="@id/cvtype_btn_select_cv" android:layout_width="@dimen/simple_cvtype_hint_select_btn_width" android:layout_marginTop="0.0dip" android:layout_marginBottom="@dimen/simple_cvtype_btn_select_margin_bottom" android:layout_alignParentBottom="true" android:layout_marginStart="32.0dip" style="@style/ButtonStyle.Primary.Dark" />
+    </RelativeLayout>
+</FrameLayout>

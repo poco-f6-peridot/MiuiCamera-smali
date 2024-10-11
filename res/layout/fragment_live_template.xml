@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/effect_realtime_item_layout_width" android:layout_height="@dimen/effect_realtime_item_layout_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/effect_close_item" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/live_workspace_total_time_margin_bottom" app:cardBackgroundColor="@color/fullscreen_background_cv" app:cardCornerRadius="@dimen/filter_selected_indicator_outer_radius" app:cardElevation="0.0dip">
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:id="@id/close_effect_item" android:focusable="false" android:layout_width="@dimen/beautycamera_makeup_item_width_cv" android:layout_height="@dimen/beautycamera_makeup_item_width_cv" app:cardBackgroundColor="@color/fullscreen_background_cv" app:cardCornerRadius="3.0dip" app:cardElevation="0.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/close_item_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:layout_centerInParent="true" android:contentDescription="@string/live_tab_effect_close_accessibility" />
+        </androidx.cardview.widget.CardView>
+        <ImageView android:layout_gravity="center" android:id="@id/close_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@null" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/live_effect_updating" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/live_effect_updating_progress" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginBottom="@dimen/vv_list_item_margin" android:indeterminateDrawable="@drawable/post_process_progress_vector" android:indeterminateDuration="@integer/post_process_duration" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/live_speed_item_textSize" android:textColor="@android:color/white" android:id="@id/live_effect_updating_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/vv_list_item_margin" android:text="@string/live_sticker_updating" android:fontFamily="mipro-regular" android:layout_marginStart="11.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/effect_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/live_effect_line" android:contentDescription="@null" />
+    <miuix.recyclerview.widget.RecyclerView android:id="@id/live_effect_list" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:focusable="false" android:layout_width="102.0dip" android:layout_height="@dimen/cinematic_dolly_op_panel_rv_item_height" app:cardBackgroundColor="@color/fullscreen_background_cv" app:cardCornerRadius="@dimen/effect_item_selected_indicator_corner_radius_cv" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="100.0dip" android:layout_height="62.0dip" app:cardBackgroundColor="@color/fullscreen_background_cv" app:cardCornerRadius="@dimen/effect_item_selected_indicator_corner_radius_cv" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/effect_item_image" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+        <com.android.camera.ui.FastmotionTextureVideoView android:id="@id/effect_item_video" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/effect_item_video_cover" android:focusable="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+        <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" android:layout_marginStart="8.0dip">
+            <com.android.camera.ui.ScrollTextview android:textSize="11.299988sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/effect_item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.6700001dip" android:singleLine="true" android:shadowColor="#80000000" android:shadowRadius="1.0" android:marqueeRepeatLimit="marquee_forever" />
+            <com.android.camera.ui.ScrollTextview android:textSize="7.299988sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="marquee" android:id="@id/effect_item_text_num" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="#80000000" android:shadowRadius="1.0" android:layout_below="@id/effect_item_text" android:marqueeRepeatLimit="marquee_forever" android:textDirection="locale" android:layout_marginStart="0.6700001dip" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <ImageView android:id="@id/effect_item_selected_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+</androidx.cardview.widget.CardView>

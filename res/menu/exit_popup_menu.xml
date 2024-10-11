@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/live_exit_record_icon" android:id="@id/live_exit_record" android:title="@string/live_exit_record" />
+    <item android:icon="@drawable/live_save_draft_icon" android:id="@id/live_save_draft" android:title="@string/live_save_draft" />
+</menu>

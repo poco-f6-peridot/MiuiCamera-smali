@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/camera_widget_red_capture_layout" android:background="@drawable/bg_widget_camera_lens" android:padding="@dimen/widget_root_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/widget_camera_red_capture_talk_back"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/camera_red_capture_widget_icon_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/portrait_mode_item_title1" android:layout_marginEnd="@dimen/widget_root_padding" />
+    <ImageView android:id="@id/camera_red_capture_widget_icon_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/manual_picture_style_desc_custom_official_d0" />
+</LinearLayout>

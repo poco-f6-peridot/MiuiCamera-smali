@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/lottie_view" android:layout_width="@dimen/flip_selfie_lottie_view_width" android:layout_height="@dimen/flip_selfie_lottie_view_width" />
+    <TextView android:textSize="@dimen/flip_selfie_text_size" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/selfie_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flip_selfie_tip_text" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/touch_area" android:layout_width="@dimen/flip_selfie_touch_area_width" android:layout_height="@dimen/flip_selfie_touch_area_height" android:layout_marginTop="@dimen/flip_selfie_touch_area_margin_top" />
+    <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/flip_selfie_arrow_width" android:layout_marginTop="@dimen/flip_selfie_slide_hint_margin_top">
+        <TextView android:textSize="@dimen/flip_selfie_text_size" android:textColor="@color/white" android:id="@id/slide_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/flip_selfie_slide_text" android:layout_marginStart="@dimen/flip_selfie_slide_text_margin_left" />
+        <com.android.camera.fragment.presentation.LinearGradientView android:layout_gravity="center_vertical" android:id="@id/linear_gradient_view" android:layout_width="@dimen/flip_selfie_linear_gradient_view_width" android:layout_height="@dimen/flip_selfie_linear_gradient_view_height" android:layout_marginStart="@dimen/flip_selfie_linear_gradient_margin_left" />
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/arrow" android:layout_width="@dimen/flip_selfie_arrow_width" android:layout_height="@dimen/flip_selfie_arrow_width" android:layout_marginStart="@dimen/flip_selfie_arrow_margin_left" />
+    </FrameLayout>
+</FrameLayout>

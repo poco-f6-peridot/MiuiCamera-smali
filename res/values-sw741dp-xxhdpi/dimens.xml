@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="beauty_subeffect_layout_margin_left">16.363983dip</dimen>
+    <dimen name="bottom_action_top_margin">51.50998dip</dimen>
+    <dimen name="bottom_action_top_margin_land_mm">400.89844dip</dimen>
+    <dimen name="bottom_snap_width">73.28dip</dimen>
+    <dimen name="cv_mode_list_hor_margin_popup">18.549988dip</dimen>
+    <dimen name="manual_popup_camera_adjust_distance_size">36.439972dip</dimen>
+    <dimen name="manual_popup_layout_margin_start">0.0dip</dimen>
+    <dimen name="manual_recyclerview_item_padding">2.1817932dip</dimen>
+    <dimen name="manually_indicator_background_margin_left_right">14.549988dip</dimen>
+    <dimen name="manually_indicator_background_margin_top_bottom">14.549988dip</dimen>
+    <dimen name="mishot_snap_top_marin_landscape">186.44199dip</dimen>
+    <dimen name="mishot_thumbnail_bottom_marin_landscape">152.436dip</dimen>
+    <dimen name="mishot_topalert_main_margintop">10.909973dip</dimen>
+    <dimen name="mode_list_hor_margin">35.599976dip</dimen>
+    <dimen name="mode_more_top_margin">30.0dip</dimen>
+    <dimen name="mode_select_item_text_size">14.699982sp</dimen>
+    <dimen name="mode_select_item_text_size_mm">14.699982dip</dimen>
+    <dimen name="mode_select_margin_hor">15.0dip</dimen>
+    <dimen name="mode_tips_item_text_size">14.299988sp</dimen>
+    <dimen name="pad_ambilight_weight_left_margin">46.0dip</dimen>
+    <dimen name="pad_second_panel_middle_line_margin_left_portrait">95.22dip</dimen>
+    <dimen name="preference_item_padding_start">28.0dip</dimen>
+    <dimen name="right_tip_description_tip_top">0.0dip</dimen>
+    <dimen name="v9_bottom_parent_vertical_width">139.70999dip</dimen>
+    <dimen name="video_ultra_tip_margin_top">10.5dip</dimen>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="beauty_menu_select_text_padding">0.0dip</dimen>
+    <dimen name="bottom_action_top_margin">21.73999dip</dimen>
+    <dimen name="bottom_action_top_margin_half">25.0dip</dimen>
+    <dimen name="bottom_popu_speed_image_margin_bottom">68.56998dip</dimen>
+    <dimen name="common_mode_select_view_red_dot_left_margin">5.0dip</dimen>
+    <dimen name="common_mode_select_view_red_dot_right_margin">6.6099854dip</dimen>
+    <dimen name="common_mode_select_vivw_ver_bottom_margin">61.50998dip</dimen>
+    <dimen name="cv_mode_item_width">150.0dip</dimen>
+    <dimen name="description_recycler_margin_start">360.0dip</dimen>
+    <dimen name="description_title_margin_top">12.0dip</dimen>
+    <dimen name="mishot_snap_top_marin_landscape">150.0dip</dimen>
+    <dimen name="mishot_topalert_center_tip_top_margin">33.25dip</dimen>
+    <dimen name="mode_select_item_text_size">15.409973sp</dimen>
+    <dimen name="pad_beauty_layout_left_margin">99.73999dip</dimen>
+    <dimen name="pad_beauty_root_layout_margin_bottom_land">150.03dip</dimen>
+    <dimen name="pad_beauty_root_layout_margin_left_land">80.19998dip</dimen>
+    <dimen name="pad_beauty_slide_top_margin_mm">136.04999dip</dimen>
+    <dimen name="pad_beauty_tip_layout_top_margin_mm">85.19dip</dimen>
+    <dimen name="pad_beauty_tip_margin_left">97.0dip</dimen>
+    <dimen name="pad_land_aiwatermark_longitude_latitude_left_margin">100.0dip</dimen>
+    <dimen name="pad_menu_tab_bottom_margin">10.0dip</dimen>
+    <dimen name="pad_menu_tab_right_margin">1114.1797dip</dimen>
+    <dimen name="pad_second_panel_middle_line_margin_left_portrait">170.0dip</dimen>
+    <dimen name="pad_smooth_slide_mask_width_land">150.0dip</dimen>
+    <dimen name="zoom_ratio_translate_x_horizontal">0.0dip</dimen>
+</resources>

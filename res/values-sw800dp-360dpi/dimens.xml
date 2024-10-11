@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_action_top_margin_land_mm">200.0dip</dimen>
+    <dimen name="pad_beauty_layout_left_margin">90.0dip</dimen>
+    <dimen name="pad_menu_tab_right_margin">660.0dip</dimen>
+</resources>
